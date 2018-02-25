@@ -47,10 +47,6 @@ a {
 }
 
 /* Header */
-#header-wrapper {
-    overflow: hidden;
-}
-
 #header {
     width: 100%;
     margin: 0 auto;
@@ -98,24 +94,21 @@ a {
 
 /* Menu */
 #menu {
-    width: 500px;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
     margin: 0;
-    padding: 20px 0 0 0;
+    padding: 10px 0 10px 0;
     list-style: none;
     line-height: normal;
 }
 
 #menu a {
     display: block;
-    line-height: 100px;
     margin-right: 1px;
-    padding: 0 20px 0 20px;
+    padding: 10px 20px 10px 20px;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
