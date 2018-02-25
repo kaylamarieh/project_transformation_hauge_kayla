@@ -152,12 +152,10 @@ main {
 }
 
 .post .entry {
-    padding: 0 0 40px 0;
     text-align: justify;
 }
 
 .links {
-    padding-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -165,7 +163,7 @@ main {
     display: block;
     width: 88px;
     padding: 5px 5px;
-    margin-right: 10px;
+    margin: 0 0 5px 0;
     background: #222222;
     color: #ffffff;
     text-align: center;
