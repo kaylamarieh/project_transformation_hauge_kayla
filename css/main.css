@@ -54,15 +54,7 @@ a {
 }
 
 /* Logo */
-#logo {
-    width: 300px;
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
-}
-
 #logo h1 {
-    line-height: 120px;
     letter-spacing: -2px;
     font-size: 3.8em;
 }
