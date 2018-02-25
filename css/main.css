@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+.container {
+    max-width: 1100px;
+}
+
 body {
     background: #ffffff url(../img/img05.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
@@ -131,8 +135,11 @@ a {
     }
 }
 
-#banner img {
+#banner {
     margin: 0 auto;
+}
+
+#banner img {
     width: 100%;
     height: auto;
 }
