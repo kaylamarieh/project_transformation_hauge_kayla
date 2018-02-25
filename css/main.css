@@ -46,19 +46,13 @@ a {
     background: #ffffff url(../img/img05.jpg) repeat;
 }
 
-.container {
-    width: 1000px;
-    margin: 0 auto;
-}
-
 /* Header */
 #header-wrapper {
     overflow: hidden;
 }
 
 #header {
-    width: 1000px;
-    height: 150px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 0;
 }
@@ -155,7 +149,6 @@ a {
 
 /* Page */
 #page {
-    width: 1000px;
     margin: 0 auto;
     padding: 30px 0;
 }
