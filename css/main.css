@@ -114,6 +114,13 @@ a {
     }
 }
 
+@media (min-width: 900px) {
+
+    nav ul li {
+        width: calc(100% / 5);
+    }
+}
+
 #banner img {
     margin: 0 auto;
     width: 100%;
