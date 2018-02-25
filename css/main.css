@@ -113,6 +113,21 @@ a {
     color: #ffffff;
 }
 
+@media (min-width: 600px) {
+
+    nav ul li {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+@media (min-width: 900px) {
+
+    nav ul li {
+        width: calc(100% / 3);
+    }
+}
+
 #banner img {
     margin: 0 auto;
     width: 100%;
