@@ -31,10 +31,6 @@ h3 {
     color: #222222;
 }
 
-h1 {
-    font-size: 2em;
-}
-
 h2,
 h3 {
     font-size: 2.8em;
@@ -121,7 +117,6 @@ a {
     font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
     font-weight: 300;
-    color: #1f1f1f;
     border: none;
 }
 
@@ -170,11 +165,6 @@ main {
     padding: 30px 0;
 }
 
-/* Content */
-#content {
-    padding: 0 0 0 0;
-}
-
 .post .title {
     padding: 7px 0 0 0;
     letter-spacing: -1px;
@@ -206,21 +196,12 @@ main {
     padding-right: 15px;
 }
 
-.more {
-    display: block;
-    width: 88px;
-    padding: 5px 5px;
-    margin: 0 0 5px 0;
-    background: #222222;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-}
-
+.more,
 .comments {
     display: block;
     width: 88px;
     padding: 5px 5px;
+    margin: 0 0 5px 0;
     background: #222222;
     color: #ffffff;
     text-align: center;
@@ -250,8 +231,6 @@ main {
 #sidebar h2 {
     padding: 15px 0 0 0;
     letter-spacing: -0.5px;
-    font-size: 1.8em;
-    color: #222222;
 }
 
 #sidebar p {
@@ -275,10 +254,10 @@ main {
 
 /* Footer */
 #footer {
-    background: #050505 url(../img/img01.jpg) repeat;
     margin: 0 auto;
     padding: 15px 0 15px 0;
     font-family: 'Abel', sans-serif;
+    background: #050505 url(../img/img01.jpg) repeat;
 }
 
 #footer p {
@@ -286,12 +265,7 @@ main {
     padding-top: 10px;
     letter-spacing: 1px;
     line-height: normal;
-    font-size: 14px;
     text-transform: uppercase;
     text-align: center;
-    color: #5e5e5e;
-}
-
-#footer a {
     color: #5e5e5e;
 }
