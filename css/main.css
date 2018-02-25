@@ -9,7 +9,7 @@ h1,
 h2,
 h3 {
     margin: 0;
-    padding: 0;
+    padding-bottom: 0;
     text-transform: uppercase;
     font-weight: normal;
     font-family: 'Oswald', sans-serif;
@@ -132,11 +132,6 @@ main {
     padding: 0 0 0 0;
 }
 
-.post {
-    margin-bottom: 40px;
-    border-bottom: 1px solid #e7ebed;
-}
-
 .post .title {
     padding: 7px 0 0 0;
     letter-spacing: -1px;
@@ -149,7 +144,6 @@ main {
 }
 
 .post .meta {
-    margin-bottom: 30px;
     padding: 10 0 0 0;
     text-align: left;
     font-family: 'Abel', sans-serif;
