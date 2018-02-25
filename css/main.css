@@ -35,12 +35,9 @@ h1 {
     font-size: 2em;
 }
 
-h2 {
-    font-size: 2.8em;
-}
-
+h2,
 h3 {
-    font-size: 1.6em;
+    font-size: 2.8em;
 }
 
 p,
@@ -58,6 +55,18 @@ a {
     content: '';
     clear: both;
     display: block;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
 }
 
 #page {
